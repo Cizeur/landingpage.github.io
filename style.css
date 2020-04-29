@@ -1,0 +1,52 @@
+body, html{
+	height: 100%;
+}
+.bg {
+	height: 100%;
+	background-color: black;
+	background-image: url(https://unsplash.com/photos/mNWsZDYUCFs/download?force=true);
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Pacifico', cursive;
+}
+
+.know_more{
+
+	/*margin: auto;*/
+	
+
+	background-color: grey;
+	border:solid grey;
+	/*font-family: 'Pacifico', cursive;*/
+/*	position: relative;
+	top: 50%;
+	left: 50%;
+*/}
+.know_more:hover{
+	background-color: black;
+	border:solid black;
+	-webkit-box-shadow: 0px 0px 20px 10px rgba(255,255,255,0.28);
+	-moz-box-shadow: 0px 0px 20px 10px rgba(255,255,255,0.28);
+	box-shadow: 0px 0px 20px 10px rgba(255,255,255,0.28);
+}
+
+#presentation{
+	/*margin: auto;*/
+	text-align: center;
+	margin-bottom:5%;
+	color: white;
+	font-size: 3em;
+	transition: all 0.5s;
+}
+#presentation:hover{
+	transform: translate(0px,5px);
+}
+#mc_embed_signup {
+	background: transparent;
+}
